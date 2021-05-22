@@ -1,0 +1,12 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+
+diet-advisor:
+  aws:
+    url: http://localhost:8000
+  kafka:
+    bootstrap-servers: localhost:9092
+  selenium:
+    host: http://localhost:4444/wd/hub

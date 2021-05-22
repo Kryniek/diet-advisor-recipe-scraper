@@ -1,0 +1,31 @@
+server:
+  port: 8003
+
+spring:
+  data:
+    dynamodb:
+      entity2ddl:
+        auto: create-only
+        readCapacity: 5
+        writeCapacity: 5
+  cache:
+    type: redis
+
+diet-advisor:
+  aws:
+    region: eu-west-1
+  kafka:
+    client:
+      id: diet-advisor-recipe-scraper
+    consumer:
+      group-id: recipes-scrape-job-group
+      auto-offset-reset: earliest
+    topic:
+      recipes-scrape-job: recipes-scrape-job-topic
+  redis:
+    cache:
+      ttl-seconds: 604800
+  selenium:
+    strength-factory:
+      email:
+      password:

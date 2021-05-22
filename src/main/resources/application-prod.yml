@@ -1,0 +1,5 @@
+diet-advisor:
+  aws:
+    user-credentials:
+      access-key:
+      secret-key:
