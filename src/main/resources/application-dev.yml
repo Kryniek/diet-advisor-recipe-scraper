@@ -6,6 +6,7 @@ spring:
 diet-advisor:
   aws:
     url: http://localhost:8000
+    recipes-images-address: C:\diet-advisor\recipe-scraper\images
   kafka:
     bootstrap-servers: localhost:9092
   selenium:

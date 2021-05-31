@@ -1,4 +1,8 @@
 # diet-advisor-recipe-scraper
+### Create local images directory
+```
+C:\diet-advisor\recipe-scraper\images
+```
 ### Install dependencies
 ```
 mvn clean install

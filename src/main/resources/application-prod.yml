@@ -3,3 +3,4 @@ diet-advisor:
     user-credentials:
       access-key:
       secret-key:
+    recipes-images-address:
